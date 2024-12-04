@@ -22,7 +22,9 @@ body {
   margin: 0;
 }
 
-
+.container {
+    display:flex;
+}
 
 .sign-up-form {
   display: grid;
