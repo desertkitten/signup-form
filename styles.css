@@ -12,6 +12,8 @@
     box-sizing: border-box;
 }
 
+/* Body Styling */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -23,8 +25,68 @@ body {
 }
 
 .container {
-    display:flex;
+    display: flex;
 }
+
+/* Logo */
+
+.left-section {
+    width: 35vw;
+    background-image: url(./images/leaf.jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    font-family: 'NorseBold', sans-serif;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+}
+
+.left-section .logo img {
+    height: 100px;
+}
+
+#logo-name {
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    span {
+        color: white;
+    }
+    span a {
+        color: white;
+    }
+}
+
+/* Content Section */
+
+.content-section {
+    width: 65vw;
+    background-color: rgb(220, 224, 226);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+
+  /* Form */
 
 .sign-up-form {
   display: grid;
