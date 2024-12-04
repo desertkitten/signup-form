@@ -1,3 +1,17 @@
+/* Font */
+@font-face {
+  font-family: 'NorseBold';
+  src: url('./fonts/Norse-Bold.otf') format('truetype');
+}
+
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -7,6 +21,8 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+
 
 .sign-up-form {
   display: grid;
